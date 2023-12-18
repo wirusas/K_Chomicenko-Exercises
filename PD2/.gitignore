@@ -23,6 +23,8 @@ bin/
 /.nb-gradle/
 out/
 .idea/
+PD2.iml
+.gitignore
 
 
 ### VS Code ###
