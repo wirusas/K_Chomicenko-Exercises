@@ -1,6 +1,6 @@
 package PD2_2;
 
-public class PD2_2 {
+public class Main_2 {
     public static void main(String[] args) {
         System.out.println(
                 "J       A         V      V        A\n" +
