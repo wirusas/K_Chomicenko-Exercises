@@ -1,4 +1,4 @@
-package lt.PD2_4;
+package lt.pd2_4;
 
 import java.util.Scanner;
 

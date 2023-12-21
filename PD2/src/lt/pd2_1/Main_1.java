@@ -1,4 +1,4 @@
-package lt.PD2_1;
+package lt.pd2_1;
 
 public class Main_1 {
     public static void main(String[] args) {

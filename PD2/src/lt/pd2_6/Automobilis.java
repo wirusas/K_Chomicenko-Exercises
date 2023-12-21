@@ -1,4 +1,4 @@
-package lt.PD2_6;
+package lt.pd2_6;
 
 public class Automobilis {
 static String marke, modelis;
