@@ -2,22 +2,18 @@ package lt.PD3_10;
 
 public class Main3_10 {
     public static void main(String[] args) {
-        double myDouble = 5.123456987;
-        float myFloat = 5.598766f;
-        long myLong = 15986487;
 
-        float myDoubleToFloat = (float) myDouble;
-        int myFloatToInt = (int) myFloat;
-        long myFloatToLogn = (long) myFloat;
-        double myLongToDouble = (double) myLong;
+        String myString = "5 10 15 -11";
+        int mySum = 0;
+        String[] myStringArray = myString.split(" ");  // STRING CONVERTS INTO ARRAY STILL STRING FORMAT
 
-        System.out.println("double to float " + myDoubleToFloat);
-        System.out.println("float to int " + myFloatToInt);
-        System.out.println("float to long " + myFloatToLogn);
-        System.out.println("long to double " + myLongToDouble);
+        for (int i = 0; i < myStringArray.length; i++) {
 
+            mySum += Integer.parseInt(myStringArray[i]); //SUM TAKES EACH ELEMENT OF NEW ARRAY AND CONVERTS IT INTO INTEGER THEN ADDS TO SUMM
 
-
-
+        }
+        System.out.println(mySum);
     }
 }
+
+
