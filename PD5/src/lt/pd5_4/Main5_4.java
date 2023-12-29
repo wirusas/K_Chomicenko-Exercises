@@ -1,23 +1,21 @@
-package lt.PD5_4;
+package lt.pd5_4;
 
-public class Main5_5 {
+import java.util.Scanner;
+
+public class Main5_4 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 10; i++) {  //row
+        System.out.println("Veskite skaičius, o aš jums pateiksiu jų sumą.\n Norėdami baigti operaciją įveskite 0");
+        int sumOfInputs = 0;
+        int usersNumber;
+        do {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Jūsų skaičius?");
 
-            for (int j = 1; j <= i; j++) {  // column
+            usersNumber = Integer.parseInt(scanner.nextLine());
+            sumOfInputs += usersNumber;
 
-                if (j == 1 || j == i || i == 10) {
-
-
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
-
-        }
-
+            System.out.println("suvestų skaičių suma lygi " + sumOfInputs);
+        } while (usersNumber != 0);
 
     }
 }

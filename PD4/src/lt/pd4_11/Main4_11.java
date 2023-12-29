@@ -2,7 +2,7 @@ package lt.pd4_11;
 
 import java.util.Scanner;
 
-public class New4_11 {
+public class Main4_11 {
     public static void main(String[] args) {
         int currentNumberOfFishes = 0;
         int fishesAddedPerDay = 0;

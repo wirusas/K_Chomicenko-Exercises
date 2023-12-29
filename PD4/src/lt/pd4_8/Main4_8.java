@@ -3,7 +3,7 @@ package lt.pd4_8;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class New4_8 {
+public class Main4_8 {
     private static final DecimalFormat df1 = new DecimalFormat("0");
     private static final DecimalFormat df2 = new DecimalFormat("0.00");
 

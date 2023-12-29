@@ -2,7 +2,7 @@ package lt.pd4_7;
 
 import java.util.Scanner;
 
-public class New4_7 {
+public class Main4_7 {
     public static void main(String[] args) {
         String[] weekDays = {"Monday", "Tuesdat", "Wednesday", "Thursday", "Friday"};
 //int lesonsPerDay = 0;

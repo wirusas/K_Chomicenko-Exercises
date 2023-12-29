@@ -1,6 +1,6 @@
 package lt.pd4_3;
 
-public class New4_3 {
+public class Main4_3 {
     public static void main(String[] args) {
         StringBuilder validation = new StringBuilder();
         String name = "Kazimieras";

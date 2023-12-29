@@ -1,6 +1,6 @@
 package lt.pd4_2;
 
-public class New4_2 {
+public class Main4_2 {
     public static void main(String[] args) {
         int num1 = 10;
         int num2 = 15;

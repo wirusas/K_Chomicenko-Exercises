@@ -1,6 +1,6 @@
 package lt.pd4_4;
 
-public class New4_4 {
+public class Main4_4 {
     public static void main(String[] args) {
         boolean myBool = true;
         int myInt1 = 5;

@@ -2,7 +2,7 @@ package lt.pd4_10;
 
 import java.util.Scanner;
 
-public class New4_10 {
+public class Main4_10 {
     public static void main(String[] args) {
         float tunelioIlgisKm = 264 / 1000F;
         float laikasPerTuneliS = 0;

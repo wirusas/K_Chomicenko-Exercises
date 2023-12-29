@@ -1,6 +1,6 @@
 package lt.pd4_6;
 
-public class New4_6 {
+public class Main4_6 {
     public static void main(String[] args) {
 
 

@@ -1,6 +1,6 @@
 package lt.pd4_1;
 
-public class New4_1 {
+public class Main4_1 {
     public static void main(String[] args) {
         float num1 = 15F;
         float num2 = 10F;
