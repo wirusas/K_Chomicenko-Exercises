@@ -25,6 +25,8 @@ out/
 .idea/
 PD2.iml
 .gitignore
+../out
+../idea
 
 
 
