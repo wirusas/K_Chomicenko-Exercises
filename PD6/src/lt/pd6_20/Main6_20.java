@@ -15,7 +15,6 @@ public class Main6_20 {
         System.out.println("Įveskite darbuotojų skaičių");
         workersNo = scanner.nextInt();
 
-
         double[] workersSalaries = new double[workersNo];
 
         for (int i = 0; i < workersNo; i++) {
