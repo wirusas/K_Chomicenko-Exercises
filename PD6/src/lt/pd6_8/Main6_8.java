@@ -8,9 +8,9 @@ public class Main6_8 {
         myArray[0] = "pirmas";
         myArray[1] = "antras";
         myArray[2] = "Trečias";
-        myArray[3] = "pirmas";
+        myArray[3] = "Pirmas";
         myArray[4] = "Antras";
-        myArray[5] = "pirmas";
+        myArray[5] = "PIRMAS";
         myArray[6] = "KETVIRTAS";
         myArray[7] = "9";
         myArray[8] = "penkiolika";
@@ -23,7 +23,7 @@ public class Main6_8 {
 
         for (int i = 0; i < myArray.length; i++) {
             for (int j = i + 1; j < myArray.length; j++) {
-                if (myArray[j] == myArray[i]) {
+                if (myArray[j].equalsIgnoreCase(myArray[i])) {
                     myArray[i] = "";
                     countEquals++;
                 }

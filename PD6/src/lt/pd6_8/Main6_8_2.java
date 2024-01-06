@@ -22,7 +22,7 @@ public class Main6_8_2 {
         for (int i = 0; i < myArray.length; i++) {
             int count = 0;
             for (int j = i+1; j < myArray.length; j++) {
-                if (myArray[j] == myArray[i]) {
+                if (myArray[j].equalsIgnoreCase(myArray[i])) {
                     count++;
                 }
             }
