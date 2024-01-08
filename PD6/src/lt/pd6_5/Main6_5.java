@@ -10,7 +10,7 @@ public class Main6_5 {
         //METHOD 1
         System.out.println("METHOD 1");
         int minNumber = ages[0];
-        int maxNumber = 0;
+        int maxNumber = ages[0];
 
         for (int i = 0; i < ages.length; i++) {
             if (ages[i] < minNumber) {
